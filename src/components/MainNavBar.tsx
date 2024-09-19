@@ -1,12 +1,20 @@
 import React from "react";
 import Link from "next/link";
 
+interface MainNavBarProps {
+  sectionOneref: React.RefObject<HTMLDivElement>;
+  sectionTworef: React.RefObject<HTMLDivElement>;
+  sectionThreeref: React.RefObject<HTMLDivElement>;
+  sectionFourref: React.RefObject<HTMLDivElement>;
+}
+
+
 function MainNavBar({
   sectionOneref,
   sectionTworef,
   sectionThreeref,
   sectionFourref,
-}: any) {
+}: MainNavBarProps) {
   const handleFirstSection = () => {
     sectionOneref.current?.scrollIntoView({ behavior: "smooth" });
   };
