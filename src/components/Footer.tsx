@@ -4,11 +4,11 @@ import Contacts from "./Contacts";
 
 function Footer() {
   return (
-    <div className="h-48 w-full bg-color3 py-3">
-      <div className="w-full h-full flex flex-col items-center justify-around">
+    <div className="w-full bg-color3 sm:py-4 py-3">
+      <div className="w-full h-full flex flex-col items-center justify-around gap-5">
         <Link href="/" className="flex items-center justify-end my-3">
           <div className="flex flex-col justify-center items-center text-sm">
-            <p className="text-color2 md:text-2xl text-xl md:font-bold font-semibold">ED-Services</p>
+            <p className="text-color2 text-xl">ED-Services</p>
           </div>
         </Link>
         <div className="sm:flex hidden">
@@ -18,7 +18,7 @@ function Footer() {
         <Contacts size={20} />
         </div>
         
-        <p className="sm:text-lg text-center text-sm text-color2">
+        <p className="sm:text-sm text-center text-xs text-color2">
           &copy; <span>2024</span> All rights reserved - Engineering and Developing Services
         </p>
       </div>

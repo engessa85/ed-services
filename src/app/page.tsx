@@ -8,6 +8,10 @@ import ElectronicsServices from "@/components/ElectronicsServices";
 import ComputerServices from "@/components/ComputerServices";
 import DevServices from "@/components/DevServices";
 import Footer from "@/components/Footer";
+import { FaCode } from "react-icons/fa";
+import { MdElectricBolt } from "react-icons/md";
+import { IoLogoElectron } from "react-icons/io5";
+import ContactUs from "@/components/ContactUs";
 
 export default function Home() {
   const sectionOneref = useRef<HTMLDivElement | null>(null);
@@ -37,10 +41,26 @@ export default function Home() {
               <span className="text-color3">Developing</span> Services
             </h1>
             <div className="flex lg:flex-row flex-col-reverse  justify-center gap-2">
-              <div className="flex-1 text-slate-400 items-center px-5 text-lg md:text-left text-center mt-4">
-                Welcome Engineering and Developing Services. We provide
-                expert solutions in Electrical, Elctronics Engineering in addition of that
-                we also provide Developing and Programming services.
+              <div className="flex-1 flex flex-col items-center  text-lg md:text-left text-center justify-start">
+                <p className="w-[80%] text-white">
+                  Welcome Engineering and Developing Services. We provide expert
+                  solutions in Electrical, Elctronics Engineering in addition of
+                  that we also provide Developing and Programming services.{" "}
+                </p>
+                <div className="w-[80%] flex gap-4 mt-10">
+                  <div className="flex flex-col items-center justify-center gap-2">
+                    <p className="text-gray-500">Electrical</p>
+                    <MdElectricBolt size={50} className="text-blue-600" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-2">
+                    <p className="text-gray-500">Electronics</p>
+                    <FaCode size={50} className="text-blue-600" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-2">
+                    <p className="text-gray-500">Developing</p>
+                    <IoLogoElectron size={50} className="text-blue-600" />
+                  </div>
+                </div>
               </div>
               <Image
                 className="flex-1 md:w-full md:h-full w-[300px] mx-auto"
@@ -118,8 +138,10 @@ export default function Home() {
           <DevServices />
         </div>
       </div>
-      <div ref={sectionFourref} className="bg-color1 h-auto"></div>
-      <Footer/>
+      <div ref={sectionFourref} className="text-color2 h-auto md:py-20 py-10 px-10 bg-[url('/frame1.png')] bg-cover bg-center bg-color1">
+        <ContactUs />
+      </div>
+      <Footer />
     </div>
   );
 }
