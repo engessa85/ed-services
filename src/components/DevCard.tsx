@@ -3,7 +3,6 @@ import { MdVerified } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
-import { django } from "@/app/data/ProgrammingLanguages";
 import { Languages } from "@/app/data/ProgrammingLanguages";
 
 interface PropeType {
