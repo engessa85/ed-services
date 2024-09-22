@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Engineering | Developing",
     description: "Engineering and developing solutions for the future",
-    url: "https://yourwebsite.com",
+    url: "https://ed-services-2.vercel.app/",
     images: [
       {
         url: "/me.png",  // Image path from the public folder
