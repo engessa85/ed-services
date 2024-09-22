@@ -26,7 +26,7 @@ function ServiceCard({ type, title, desc }: PropeType) {
             <MdVerified size={20} className="text-gray-900" />
             <FaChalkboardTeacher size={20} className="text-blue-500" />
           </div>
-          <Link href="/" className="hover:text-color2 hover:scale-105">
+          <Link href="https://api.whatsapp.com/send?phone=201557080199" className="hover:text-color2 hover:scale-105">
             Get Started &rarr;
           </Link>
         </div>

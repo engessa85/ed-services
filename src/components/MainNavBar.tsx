@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import SiteLogo from "./SiteLogo";
 
 interface MainNavBarProps {
   sectionOneref: React.RefObject<HTMLDivElement>;
@@ -30,7 +31,7 @@ function MainNavBar({
   return (
     <div className="text-color1 bg-transparent h-[80px] shadow-lg py-4 px-6">
       <div className="w-full h-full flex items-center justify-between">
-        <div className="text-xl">ED-Services</div>
+        <div className="text-xl"><SiteLogo/></div>
         <div className="md:flex items-center gap-9 text-color1 text-lg hidden">
           <span
             className="cursor-pointer hover:text-color3 hover:scale-105"

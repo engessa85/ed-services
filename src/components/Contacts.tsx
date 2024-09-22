@@ -11,9 +11,9 @@ interface PRPOPE {
 }
 function Contacts({size}:PRPOPE) {
   return (
-    <div className="flex gap-3">
+    <div className="flex gap-3 text-white">
       <Link href="https://www.facebook.com/PythonDeveloperMohamedYehia/">
-        <FaFacebook size={size} />
+        <FaFacebook size={size}  />
       </Link>
       <Link href="https://x.com/Eng_MYehia">
         <FaTwitter size={size} />

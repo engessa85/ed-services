@@ -50,7 +50,7 @@ function Devcard({ type, title, desc, imagePath, language }: PropeType) {
             <FaChalkboardTeacher size={20} className="text-blue-500" />
           </div>
           <Link
-            href="/"
+            href="https://api.whatsapp.com/send?phone=201557080199"
             className="hover:text-slate-400 hover:scale-105 text-slate-600"
           >
             Get Started &rarr;
