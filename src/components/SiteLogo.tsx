@@ -1,5 +1,4 @@
 import React from "react";
-import { FcEngineering } from "react-icons/fc";
 import Image from "next/image";
 
 function SiteLogo() {
