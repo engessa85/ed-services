@@ -34,12 +34,12 @@ export default function Home() {
         />
 
         {/* URL */}
-        <meta property="og:url" content="https://ed-services-2.vercel.app/" />
+        <meta property="og:url" content="https://ed-services.vercel.app/" />
 
         {/* Image */}
         <meta
           property="og:image"
-          content="https://ed-services-2.vercel.app/me.png"
+          content="https://ed-services.vercel.app/me.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -56,7 +56,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://ed-services-2.vercel.app/me.png"
+          content="https://ed-services.vercel.app/me.png"
         />
       </Head>
 
